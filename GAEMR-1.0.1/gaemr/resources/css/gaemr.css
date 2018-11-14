@@ -1,0 +1,92 @@
+html, body {
+	#height: 100%;	
+}
+
+body {
+	font-family: "Verdana", Verdana, sans-serif;
+    	font-size: medium;
+	background-color: white;
+}
+
+table {
+	border: 1px solid #335588;
+	border-collapse:collapse;
+}
+
+th, td {
+	border: 1px solid #335588;
+}
+
+td {
+	font-family:"Courier New", Courier, sans-serif;
+	background:#ddeeff;	
+	padding-left: 15px;
+}
+
+th {
+	border: 1px solid #335588;
+	color: white;
+	text-align:left;
+	padding: 5px;
+	background: #335588;
+}
+
+.plot {
+	background: white;
+	width: 75%;
+	padding: 5px;
+}
+
+.section {
+	background: #335588;
+	color: white;
+	text-align: center;
+	height: 99%;
+	padding: 5px;
+}
+
+.section-content {
+	text-align: center;
+	background: white;
+	color: black;
+	overflow-y: auto;
+	height: 90%;
+}
+
+.subsection{
+	border: 1px solid red;
+}
+
+ul, li {
+	list-style-type: none;
+	padding: 2px; 
+}
+
+.menu-header {
+	width: 95%;
+       	padding: 5px;
+        color: white;
+        border:1px solid white;
+       	background: #335588;
+	font-weight: bold;
+}
+.menu-section {
+	font-size:11px;
+	display:none;
+	width:95%;
+	text-align:left;
+	background: #CCDDFF;
+	padding:5px;
+}
+
+.menu-header a, .menu-header a:hover {
+	text-decoration:none;
+	color: white;
+}
+
+.menu-section a, .menu-section a:hover {
+	text-decoration:none;
+	color: black;
+}
+
+

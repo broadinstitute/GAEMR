@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><HTML>
+<HEAD>
+<TITLE>Table Of Contents</TITLE>
+<link rel="stylesheet" type="text/css" href="css/gaemr.css" />
+<SCRIPT>
+function sectionOpen(sectionID, sectionName, sectionPage) {
+	document.getElementById('section_' + sectionID).style.display = "block";
+	document.getElementById('header_' + sectionID).innerHTML="<a href=\"javascript:sectionClose('" + sectionID + "','" + sectionName + "','" + sectionPage + "');\">Section " + sectionID + ". " + sectionName + "</a>";
+	parent.contents.location.href = sectionPage;
+}
+function sectionClose(sectionID, sectionName, sectionPage) {
+	document.getElementById('section_' + sectionID).style.display = "none";
+	document.getElementById('header_' + sectionID).innerHTML="<a href=\"javascript:sectionOpen('" + sectionID + "','" + sectionName + "','" + sectionPage + "');\">Section " + sectionID + ". " + sectionName + "</a>";
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<div class="menu-header">Table of Contents</div>
+
+<div id="header_0" class="menu-header"><a href="javascript:sectionOpen('0', 'GAEMR SUMMARY','gaemr_summary.html');">Section 0. GAEMR Summary</a></div>
+<div id="section_0" class="menu-section">
+        <li><A href="gaemr_summary.html#cumulative_sizes_image" target="contents">Figure 0.1 Cumulative Sizes</a><br></li>
+	<li><A href="gaemr_summary.html#blast_bubbles" target="contents">Figure 0.2 Blast Bubbles</a><br></li>
+        <li><A href="gaemr_summary.html#scaffold_gc_heat_cvg_line_images" target="contents">Figure 0.3 Coverage Line Plot and GC</a><br></li>
+        <li><A href="gaemr_summary.html#rna_analysis_summary" target="contents">Table 0.1 rRNA Analysis Summary</a><br></li>
+	<li><A href="gaemr_summary.html#ref_vs_asmbly" target="contents">Figure 0.4 Alignment to Reference</a><br></li>
+</div>
+
+<div id="header_1" class="menu-header"><a href="javascript:sectionOpen('1', 'Assembly Stats','assembly_stats.html');">Section 1. Assembly Stats</a></div>
+<div id="section_1" class="menu-section">
+        <li><A href="assembly_stats.html#basic_assembly_stats" target="contents">Table 1.1. Basic Assembly Stats</a><br></li>
+        <li><A href="assembly_stats.html#rna_analysis_summary" target="contents">Table 1.2. rRNA Analysis Summary</a><br></li>
+        <li><A href="assembly_stats.html#cumulative_sizes_image" target="contents">Figure 1.1. Cumulative Sizes</a><br></li>
+</div>
+
+<div id="header_2" class="menu-header"><a href="javascript:sectionOpen('2', 'Read Alignment Stats','read_stats.html');">Section 2. Read Alignment Stats</a></div>
+<div id="section_2" class="menu-section">
+        <li><A href="read_stats.html#scaffold_gc_heat_cvg_line_images" target="contents">Figure 2.1 Coverage Line Plot and GC</a><br></li>
+        <li><A href="read_stats.html#gc_cvg_images" target="contents">Figure 2.2 Scaffold GC Coverage Histogram</a><br></li>
+        <li><A href="read_stats.html#simple_bam_stats" target="contents">Table 2.1 Simple BAM Stats</a><br></li>
+        <li><A href="read_stats.html#seq_cvrg_stats" target="contents">Table 2.2 Sequence Coverage Stats</a><br></li>
+        <li><A href="read_stats.html#phys_cvrg_stats" target="contents">Table 2.3 Physical Coverage Stats</a><br></li>
+        <li><A href="read_stats.html#insert_size_stats" target="contents">Table 2.4 Insert Size Stats</a><br></li>
+        <li><A href="read_stats.html#scaf_insert_images" target="contents">Figure 2.3 Scaffold Insert Size</a><br></li>
+        <li><A href="read_stats.html#scaf_cov_anorm" target="contents">Figure 2.4 Coverage Anomalies Scatter Plot</a><br></li>
+        <li><A href="read_stats.html#scaf_cov_anorm_clust_len_images" target="contents">Figure 2.5 Scaffold Coverage Anomalies Cluster Length</a><br></li>
+        <li><A href="read_stats.html#scaf_cov_anorm_cvg_change_scatter" target="contents">Figure 2.6 Scaffold Coverage Anomalies Change in Coverage Scatter Plot</a><br></li>
+        <li><A href="read_stats.html#scaf_cov_anorm_cvg_change_histogram" target="contents">Figure 2.7 Scaffold Coverage Anomalies Change in Coverage Histogram</a><br></li>
+</div>
+
+<div id="header_3" class="menu-header"><a href="javascript:sectionOpen('3', 'Kmer Analysis','kmer_analysis.html');">Section 3. Kmer Analysis</a></div>
+<div id="section_3" class="menu-section">
+        <li><A href="kmer_analysis.html#kmer_copy_num" target="contents">Table 3.1. Kmer Copy Number</a><br></li>
+</div>
+
+
+<div id="header_4" class="menu-header"><a href="javascript:sectionOpen('4', 'Gap End Analysis','gap_end_analysis_summary.html');">Section 4. Gap End Analysis</a></div>
+<div id="section_4" class="menu-section">
+        <li><A href="gap_end_analysis_summary.html#gap_analysis_table" target="contents">Table 4.1. Gap End Analysis Table</a><br></li>
+        <li><A href="gap_end_analysis_summary.html#gap_ss_table" target="contents">Table 4.2. Gap End Simple Sequence Analysis Table</a><br></li>
+        <li><A href="gap_end_analysis_summary.html#cg_sizes" target="contents">Figure 4.1. CG Sizes</a><br></li>
+        <li><A href="gap_end_analysis_summary.html#cg_distinct" target="contents">Figure 4.2. CG Distinctness</a><br></li>
+        <li><A href="gap_end_analysis_summary.html#cg_copy_num" target="contents">Figure 4.3. CG Copy Number</a><br></li>
+        <li><A href="gap_end_analysis_summary.html#cg_gc" target="contents">Figure 4.4. CG GC</a><br></li>
+        <li><A href="gap_end_analysis_summary.html#ue_distinct" target="contents">Figure 4.5. UE Distinctness</a><br></li>
+        <li><A href="gap_end_analysis_summary.html#ue_copy_num" target="contents">Figure 4.6. UE Copy Number</a><br></li>
+        <li><A href="gap_end_analysis_summary.html#ue_gc" target="contents">Figure 4.7. UE GC</a><br></li>
+</div>
+
+<div id="header_5" class="menu-header"><a href="javascript:sectionOpen('5', 'Reference Analysis','reference_analysis.html');">Section 5. Reference Analysis</a></div>
+<div id="section_5" class="menu-section">
+    <li><A href="reference_analysis.html#ref_vs_asmbly" target="contents">Figure 5.1 Alignment to Reference</a><br></li>
+    <li><A href="reference_analysis.html#scaf_accu" target="contents">Table 5.1 Scaffold Accuracy</a><br></li>
+    <li><A href="reference_analysis.html#kmer_coverage" target="contents">Table 5.2 Kmer Coverage</a><br></li>
+    <li><A href="reference_analysis.html#gc_cvrg_line_heatmap" target="contents">Figure 5.2 Coverage Line Plot and GC</a><br></li>
+    <li><A href="reference_analysis.html#gc_cov" target="contents">Figure 5.3 GC Coverage Histogram</a><br></li>
+    <li><A href="reference_analysis.html#ref_simple_bam_stat" target="contents">Table 5.3 Reference Simple BAM Stats Table</a><br></li>
+    <li><A href="reference_analysis.html#ref_seq_cvrg" target="contents">Table 5.4 Reference Sequence Coverage Stat</a><br></li>
+    <li><A href="reference_analysis.html#phys_seq_cvrg" target="contents">Table 5.5 Physical Coverage Stats</a><br></li>
+    <li><A href="reference_analysis.html#ref_inserts" target="contents">Figure 5.4 Insert Size</a><br></li>
+    <li><A href="reference_analysis.html#insert_size" target="contents">Table 5.6 Insert Size Stats</a><br></li>
+    <li><A href="reference_analysis.html#comparison_to_reference" target="contents">Figure 5.5 Comparison To Reference</a><br></li>
+    <li><A href="reference_analysis.html#cvrg_anorm" target="contents">Figure 5.6 Coverage Anomalies Scatter Plot</a><br></li>
+    <li><A href="reference_analysis.html#anorm_bar" target="contents">Figure 5.7 Coverage Anomalies Bar Plot</a><br></li>
+    <li><A href="reference_analysis.html#ref_change_cvrg_scatter" target="contents">Figure 5.8 Coverage Change Across Bases Scatter Plot</a><br></li>
+    <li><A href="reference_analysis.html#ref_change_cvrg_histogram" target="contents">Figure 5.9 Coverage Change Across Bases Histogram</a><br></li>
+
+</div>
+
+<div id="header_6" class="menu-header"><a href="javascript:sectionOpen('6', 'Blast Analysis','blast_analysis.html');">Section 6. Blast Analysis</a></div>
+<div id="section_6" class="menu-section">
+    <li><A href="blast_analysis.html#blast_bubbles" target="contents">Figure 6.1 Blast Bubbles</a><br></li>
+    <li><A href="blast_analysis.html#blast_heatmap" target="contents">Figure 6.2 Blast Heat Map</a><br></li>
+    <li><A href="blast_analysis.html#blast_tax_det" target="contents">Table 6.1 Blast Taxonomy Details</a><br></li>
+</div>
+
+<div id="header_7" class="menu-header"><a href="javascript:sectionOpen('7', 'rRNA Details','rrna_details.html');">Section 7. rRNA Details</a></div>
+<div id="section_7" class="menu-section">
+        <li><A href="rrna_details.html#rrna_det" target="contents">Table 7.1. rRNA Analysis Details</a><br></li>
+</div>
+
+<div id="header_8" class="menu-header"><a href="javascript:sectionOpen('8', 'Assembly Details','assembly_details.html');">Section 8. Assembly Details</a></div>
+<div id="section_8" class="menu-section">
+        <li><A href="assembly_details.html#contig_stat" target="contents">Table 8.1. Contig Details</a><br></li>
+        <li><A href="assembly_details.html#scaf_stat" target="contents">Table 8.2. Scaffold Details</a><br></li>
+</div>
+
+</BODY>
+</HTML>

@@ -1,0 +1,14 @@
+Python-2.7:	
+    - BioPython
+    - matplotlib
+    - optparse
+    - argparse
+    - numpy
+Blast+:
+    - local copy of nt
+    - local copy of names/nodes taxdump (optional, but will miss
+    taxonomy stuff)
+Rnammer
+RDP-classifier-2.4
+Picard package
+Samtools

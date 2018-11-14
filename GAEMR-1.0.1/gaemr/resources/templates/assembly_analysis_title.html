@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Assembly Stats</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/gaemr.css" />
+<STYLE type="text/css">
+  #title-wrapper {float: left; margin-right: 10px;}
+  #title {font-size: large; font-weight: bolder;}
+  #assembly-name {font-size: small; font-weight: bold;}
+  #generation-time {float: right; font-size: medium; font-weight: normal;}
+  #logo {float: left; margin-right: 10px; margin-top: -20px; height: 50px}
+  #top {min-height: 30px;}
+</STYLE>
+
+  <SCRIPT>
+        function goTo(url)
+        {
+            parent.location=url;
+        }
+  </SCRIPT>
+
+</HEAD>
+<BODY>
+  <div id="top">
+  <img id="logo" src="img/broad-logo.jpg"></img>
+  <div style="margin-top: 20px;">
+  <span id="title-wrapper">
+  <span id="title">GAEMR Presentation Report</span>
+  <br>
+  <span id="assembly-name">{{ assembly_name }}</span>
+  </span>
+  <span id="generation-time"> {{ site_generation_time }}</span>
+  </div>
+  </div>  
+</BODY>
+</HTML>

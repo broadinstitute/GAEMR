@@ -1,0 +1,17 @@
+# These are current html table names used in templates, provide one or more alias in comma separated list after equals.  no spaces please.
+# See the sample_project_one/tables directory to see examples of what these tables are.  Names are deliberately short and non descriptive
+ass-stats-ambg=
+cont-stats=
+rep_cont_ends=
+ass-stats-cont=
+ass-stats-scaf=
+ass-stats-gap=
+ass-stats-rna=
+ass-stats-cc=
+read-stats-gen=
+read-stats-aln-ass=
+read-stats-kmer=
+read-stats-aln-ref=
+read-stats-ins=
+rep-sum=
+scaf-stats=

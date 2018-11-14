@@ -1,0 +1,12 @@
+# These are current image names used in templates, provide one or more alias in comma separated list after equals.  no spaces please.
+cont_size_blast.png=
+cov_gc_len.png=
+cum_scaf_cont.png=
+gc_read_aln.png=
+insert_size_histo.png=
+phys_cov_histo.png=
+read_aln_ref.png=
+scaf_aln_ref.png=
+seq_cov_gc.png=
+seq_phys_cov.png=
+valid_read_pairs.png=

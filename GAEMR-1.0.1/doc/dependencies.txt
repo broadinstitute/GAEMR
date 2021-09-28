@@ -9,6 +9,8 @@ Blast+:
     - local copy of names/nodes taxdump (optional, but will miss
     taxonomy stuff)
 Rnammer
+HMMER
 RDP-classifier-2.4
 Picard package
 Samtools
+R
